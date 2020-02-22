@@ -7,8 +7,10 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
+  zipkin:
+    base-url: http://localhost:9411
 server:
-  port: 8985
+  port: 8981
 eureka:
   client:
     service-url:
